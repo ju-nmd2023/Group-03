@@ -2,19 +2,16 @@
 
 .header {
   display: grid;
-  grid-template-areas:
-    "header header header header"
-    header header header;
   background-color: burlywood;
-  align-content: flex-end, center;
+  width: 1585px;
+  height: 175px;
 }
 
 .logo {
   color: black;
   font-family: "Limelight", sans-serif;
   font-size: x-large;
-  margin-left: 28rem;
-  margin-right: 0;
+  text-align: center;
 }
 
 ul {
@@ -35,7 +32,7 @@ ul {
 .loginbuttons {
   display: flex;
   gap: 15px;
-  align-items: baseline;
   justify-content: flex-end;
+  margin-right: 50px;
   margin-top: 0;
 }
