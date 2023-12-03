@@ -12,6 +12,7 @@
   font-family: "Limelight", sans-serif;
   font-size: x-large;
   text-align: center;
+  margin-left: 40vw;
 }
 
 ul {
@@ -32,7 +33,56 @@ ul {
 .loginbuttons {
   display: flex;
   gap: 15px;
-  justify-content: flex-end;
+  justify-content: center;
   margin-right: 50px;
   margin-top: 0;
+  margin-left: auto;
+}
+
+/* MAIN */
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1px;
+  gap: 4px;
+  margin-top: 4rem;
+  font-family: "League Gothic", sans-serif;
+  font-size: larger;
+}
+
+.paymenttext {
+  font-family: "League Gothic", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.hr {
+  background-color: black;
+  height: 3px;
+  border-width: 0;
+  width: 1580px;
+}
+
+.paymethod {
+  font-family: "League Gothic", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.inlineimage {
+  max-width: 400px;
+  margin-right: 8px;
+  margin-left: 38rem;
+}
+
+.images {
+  display: inline-block;
+  max-width: 98%;
+  height: auto;
+  width: 22%;
+  margin: 1%;
+  left: 20px;
 }
