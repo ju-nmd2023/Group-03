@@ -1,84 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Limelight&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/85f166a876.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="JS/main.js" defer></script>
-    <title>Document</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="header">
-        <p class="logo">Bodi's Photography</p>
-        <div class="loginbuttons">
-          <p>
-            <a href="#">My Account</a>
-          </p>
-          <p>
-            <a href="#">Sign In</a>
-          </p>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="#" class="contact">Home</a></li>
-            <li><a href="#" class="contact">About Us</a></li>
-            <li><a href="#" class="contact">Packages</a></li>
-            <li><a href="#" class="contact">Gallery</a></li>
-            <li><a href="#" class="contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <main>
-      <div>
-        <img src="0-2.jpeg" alt="Portrait">
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="col-1">
-        <h3>USEFUL LINKS</h3>
-        <a href="#">About Us</a>
-        <a href="#">Blog</a>
-        <a href="#">FAQ's</a>
-      </div>
-      <div class="col-2">
-        <h3>NEWSLETTER</h3>
-        <form>
-          <input
-            id="forminput"
-            type="email"
-            placeholder="Your Email Adress"
-            required
-          />
-          <br />
-          <button id="subbtn" type="submit">SUBSCRIBE NOW</button>
-        </form>
-      </div>
-      <div class="col-3">
-        <h3>CONTACT US</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="css/main.css" />
+
+  <!-- Preconnect links for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Link to Google Fonts (Limelight and League Gothic) -->
+  <link href="https://fonts.googleapis.com/css2?family=Limelight&family=League+Gothic&display=swap" rel="stylesheet" />
+
+  <!-- Link to Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/85f166a876.js" crossorigin="anonymous"></script>
+
+  <!-- Link to external JavaScript file with defer attribute -->
+  <script src="JS/main.js" defer></script>
+
+  <title>Your Page Title</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <p class="logo">Bodi's Photography</p>
+      <div class="loginbuttons">
         <p>
-          11551 Gjuterigratan 5 <br />
-          Jönköping Uni Sweden
+          <a href="#">My Account</a>
+        </p>
+        <p>
+          <a href="#">Sign In</a>
         </p>
       </div>
-    </footer>
-  </body>
+      <nav>
+        <ul>
+          <li><a href="#" class="contact">Home</a></li>
+          <li><a href="#" class="contact">About Us</a></li>
+          <li><a href="#" class="contact">Packages</a></li>
+          <li><a href="#" class="contact">Gallery</a></li>
+          <li><a href="#" class="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Category</h1>
+    <section>
+      <a href="#">
+        <figure> 
+          <img src="IMG/0.jpeg" alt="Portrait">
+          <figcaption>Portrait</figcaption>
+        </figure>
+      </a>
+
+      <a href="#">
+        <figure> 
+          <img src="IMG/0.jpeg" alt="Portrait">
+          <figcaption>Portrait</figcaption>
+        </figure>
+      </a>
+
+      <a href="#">
+        <figure> 
+          <img src="IMG/0.jpeg" alt="Portrait">
+          <figcaption>Portrait</figcaption>
+        </figure>
+      </a>
+
+      <a href="#">
+        <figure> 
+          <img src="IMG/0.jpeg" alt="Portrait">
+          <figcaption>Portrait</figcaption>
+        </figure>
+      </a>
+
+      <a href="#">
+        <figure> 
+          <img src="IMG/0.jpeg" alt="Portrait">
+          <figcaption>Portrait</figcaption>
+        </figure>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="col-1">
+      <h3>USEFUL LINKS</h3>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">FAQ's</a>
+    </div>
+    <div class="col-2">
+      <h3>NEWSLETTER</h3>
+      <form>
+        <input id="forminput" type="email" placeholder="Your Email Address" required />
+        <br />
+        <button id="subbtn" type="submit">SUBSCRIBE NOW</button>
+      </form>
+    </div>
+    <div class="col-3">
+      <h3>CONTACT US</h3>
+      <p>
+        11551 Gjuterigratan 5 <br />
+        Jönköping Uni Sweden
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>

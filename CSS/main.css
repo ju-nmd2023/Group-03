@@ -49,6 +49,14 @@ ul {
 
 /* MAIN */
 
+.img {
+max-width: 20%;
+height: auto;
+display: block;
+margin: 0 auto;
+  
+}
+
 #input {
   display: flex;
   flex-direction: column;
