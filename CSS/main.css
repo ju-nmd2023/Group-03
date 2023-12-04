@@ -28,6 +28,7 @@ ul {
 
 .contact {
   color: black;
+  text-decoration: none;
 }
 
 .loginbuttons {
@@ -91,9 +92,8 @@ ul {
 }
 
 .inlineimage {
-  max-width: 400px;
-  margin-right: 8px;
-  margin-left: 38rem;
+  display: flex;
+  align-items: center;
 }
 
 .images {
