@@ -44,10 +44,11 @@ ul {
   margin-right: 50px;
   margin-top: 0;
   margin-left: auto;
-  width: ;
+
 }
 
 /* MAIN */
+
 
 #input {
   display: flex;
@@ -69,6 +70,17 @@ ul {
   font-family: "League Gothic", sans-serif;
   text-align: center;
   font-size: xx-large;
+}
+
+.paymentt {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.img-text {
+  text-align: center;
+  font-size: x-large;
+  color: black;
 }
 
 .donebtn {
@@ -240,10 +252,5 @@ footer.footer {
 }
 
 .figure {
-  margin- 10px;
-}
-
-.text-under-image {
-  margin-top: 0;
-  grid-area: img;
+  margin: 10px;
 }
