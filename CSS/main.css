@@ -163,6 +163,16 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.img {
+  display: grid;
+  justify-content: flex-start;
+}
+.main-img1 {
+  width: 30%;
+}
+.main-img2 {
+  width: 29%;
+}
 /* FOOTER */
 
 .footer {
