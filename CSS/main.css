@@ -1,5 +1,4 @@
 /* HEADER */
-
 body {
   margin: 0px;
 }
@@ -45,39 +44,11 @@ ul {
   margin-right: 50px;
   margin-top: 0;
   margin-left: auto;
-}
-
-/* INDEX.HTML */
-
-.title {
-  font-family: "Adamina", serif;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.smalltext {
-  font-family: "Adamina", serif;
-  font-size: small;
-  text-align: center;
-}
-
-.girllooking {
-  width: 80%;
-  height: 400px;
+  width: ;
 }
 
 /* MAIN */
 
-<<<<<<< HEAD
-=======
-.img {
-  max-width: 20%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
->>>>>>> c1a34768b4e780eb6495b95bfe728decd37e57ec
 #input {
   display: flex;
   flex-direction: column;
@@ -135,9 +106,8 @@ ul {
 }
 
 .inlineimage {
-  display: block;
-  margin: auto;
-  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .images {
@@ -200,16 +170,6 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img {
-  display: grid;
-  justify-content: flex-start;
-}
-.main-img1 {
-  width: 30%;
-}
-.main-img2 {
-  width: 29%;
-}
 /* FOOTER */
 
 .footer {
