@@ -1,4 +1,11 @@
 /* HEADER */
+body {
+  margin: 0px;
+}
+
+.top {
+  display: flex;
+}
 
 .header {
   display: grid;
@@ -12,7 +19,6 @@
   font-family: "Limelight", sans-serif;
   font-size: x-large;
   text-align: center;
-  margin-left: 0;
 }
 
 ul {
@@ -38,6 +44,7 @@ ul {
   margin-right: 50px;
   margin-top: 0;
   margin-left: auto;
+  width: ;
 }
 
 /* MAIN */
