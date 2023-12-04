@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/85f166a876.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="JS/main.js" defer></script>
     <title>Document</title>
   </head>
@@ -45,23 +49,21 @@
     </header>
     <main>
       <p class="paymenttext">Payment/Checkout</p>
-      <form class="input" action="/url" method="GET">
+      <form id="input" action="/url" method="GET">
         <p>Full Name</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
         <p>Adress</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
         <p>Postal Code</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
         <p>City</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
         <p>Email</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
         <p>Phone</p>
-        <input type="text" size="60" />
+        <input class="textbox" type="text" size="60" required />
+        <button class="donebtn">CONTINUE</button>
       </form>
-      <br />
-      <br />
-      <br />
       <hr class="hr" />
       <br />
       <br />
@@ -83,7 +85,63 @@
           src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/American-Express-Curved.png"
         />
       </div>
+      <br />
+      <br />
+      <div class="paymentdetails">
+        <p>CARD NUMBER</p>
+        <input
+          placeholder="68X-XXXX-XXX-XX"
+          class="textbox"
+          type="text"
+          size="25px"
+        />
+        <p>VALID UNTIL</p>
+        <input placeholder="DD/MM/YY" class="textbox" type="text" size="25px" />
+      </div>
+      <div class="ccv">
+        <p>CCV</p>
+        <input placeholder="***" class="textbox" type="text" size="10px" />
+      </div>
+      <div class="cardname">
+        <p>CARD NAME</p>
+        <input
+          placeholder="Full name"
+          class="textbox"
+          type="text"
+          size="40px"
+        />
+      </div>
+      <br />
+      <br />
+      <button id="bigbtn">CONFIRM PAYMENT</button>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">FAQ's</a>
+      </div>
+      <div class="col-2">
+        <h3>NEWSLETTER</h3>
+        <form>
+          <input
+            id="forminput"
+            type="email"
+            placeholder="Your Email Adress"
+            required
+          />
+          <br />
+          <button id="subbtn" type="submit">SUBSCRIBE NOW</button>
+        </form>
+      </div>
+      <div class="col-3">
+        <h3>CONTACT US</h3>
+        <p>
+          11551 Gjuterigratan 5 <br />
+          Jönköping Uni Sweden
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
