@@ -39,6 +39,11 @@ ul {
   margin-left: auto;
 }
 
+#Checkout {
+  display: flex;
+  justify-content: center;
+}
+
 /* MAIN */
 
 #input {
