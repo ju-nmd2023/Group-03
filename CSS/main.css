@@ -49,14 +49,6 @@ ul {
 
 /* MAIN */
 
-.img {
-max-width: 20%;
-height: auto;
-display: block;
-margin: 0 auto;
-  
-}
-
 #input {
   display: flex;
   flex-direction: column;
@@ -91,6 +83,13 @@ margin: 0 auto;
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.main-img {
+  width: 10cm;
+  height: 10cm;
+  border: 4px solid black;
+  box-sizing: border-box;
 }
 
 .hr {
@@ -231,4 +230,20 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+}
+
+/* CATEGORY SECTION */
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.figure {
+  margin- 10px;
+}
+
+.text-under-image {
+  margin-top: 0;
+  grid-area: img;
 }
