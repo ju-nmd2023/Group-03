@@ -1,4 +1,5 @@
 /* HEADER */
+
 body {
   margin: 0px;
 }
@@ -44,7 +45,25 @@ ul {
   margin-right: 50px;
   margin-top: 0;
   margin-left: auto;
-  width: ;
+}
+
+/* INDEX.HTML */
+
+.title {
+  font-family: "Adamina", serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.smalltext {
+  font-family: "Adamina", serif;
+  font-size: small;
+  text-align: center;
+}
+
+.girllooking {
+  width: 80%;
+  height: 400px;
 }
 
 /* MAIN */
@@ -107,8 +126,9 @@ margin: 0 auto;
 }
 
 .inlineimage {
-  display: flex;
-  align-items: center;
+  display: block;
+  margin: auto;
+  width: 50%;
 }
 
 .images {
