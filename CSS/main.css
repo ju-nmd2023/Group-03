@@ -1,5 +1,4 @@
 /* HEADER */
-
 body {
   margin: 0px;
 }
@@ -45,35 +44,11 @@ ul {
   margin-right: 50px;
   margin-top: 0;
   margin-left: auto;
-}
 
-/* INDEX.HTML */
-
-.title {
-  font-family: "Adamina", serif;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.smalltext {
-  font-family: "Adamina", serif;
-  font-size: small;
-  text-align: center;
-}
-
-.girllooking {
-  width: 80%;
-  height: 400px;
 }
 
 /* MAIN */
 
-.img {
-  max-width: 20%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
 
 #input {
   display: flex;
@@ -97,6 +72,17 @@ ul {
   font-size: xx-large;
 }
 
+.paymentt {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.img-text {
+  text-align: center;
+  font-size: x-large;
+  color: black;
+}
+
 .donebtn {
   background-color: black;
   color: white;
@@ -109,6 +95,13 @@ ul {
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.main-img {
+  width: 10cm;
+  height: 10cm;
+  border: 4px solid black;
+  box-sizing: border-box;
 }
 
 .hr {
@@ -125,9 +118,8 @@ ul {
 }
 
 .inlineimage {
-  display: block;
-  margin: auto;
-  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .images {
@@ -190,16 +182,6 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img {
-  display: grid;
-  justify-content: flex-start;
-}
-.main-img1 {
-  width: 30%;
-}
-.main-img2 {
-  width: 29%;
-}
 /* FOOTER */
 
 .footer {
@@ -260,4 +242,15 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+}
+
+/* CATEGORY SECTION */
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.figure {
+  margin: 10px;
 }
