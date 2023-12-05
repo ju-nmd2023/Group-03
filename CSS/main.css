@@ -43,7 +43,23 @@ ul {
   display: flex;
   justify-content: center;
 }
+#thankyou {
+  display: flex;
+  justify-content: center;
+  color: #439a60;
+}
 
+#receipt {
+  display: flex;
+  justify-content: center;
+  color: #22467d;
+}
+
+#visa {
+  display: flex;
+  justify-content: center;
+  color: #948b8b;
+}
 /* MAIN */
 
 #input {
@@ -161,6 +177,17 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.greenconfirmed {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+}
+
+.blueprinter {
+  display: flex;
+  justify-content: center;
+  width: 5%;
+}
 /* FOOTER */
 
 .footer {
