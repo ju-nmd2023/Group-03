@@ -1,5 +1,4 @@
 /* HEADER */
-
 body {
   margin: 0px;
 }
@@ -47,7 +46,7 @@ ul {
   margin-left: auto;
 }
 
-/* INDEX.HTML */
+/* HOMEPAGE */
 
 .title {
   font-family: "Adamina", serif;
@@ -57,67 +56,13 @@ ul {
 
 .smalltext {
   font-family: "Adamina", serif;
-  font-size: medium;
+  font-size: small;
   text-align: center;
 }
 
 .girllooking {
-  width: 85%;
-  height: 20%;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.boxtext {
-  width: 250px;
-  float: left;
-  text-align: center;
-  font-family: "Adamina", serif;
-  margin-left: 140px;
-  background-color: lightgrey;
-  padding: 4%;
-  margin-bottom: 2rem;
-}
-
-div.bluebox {
-  width: 600px;
-  height: 500px;
-  background-color: rgb(61, 111, 132);
-  color: white;
-  float: right;
-  margin-right: 15%;
-  margin-top: 160px;
-}
-
-.citat {
-  color: black;
-  font-family: "Abhaya Libre", serif;
-  text-align: center;
-  margin-top: 54%;
-  margin-left: 40%;
-  font-size: large;
-}
-
-.glasses {
-  width: 500px;
-  height: 350px;
-  position: absolute;
-  margin-left: 25%;
-  margin-top: 3%;
-}
-
-.joudy {
-  height: 450px;
-  width: 330px;
-  position: absolute;
-  margin-top: 28%;
-  margin-left: 25px;
-}
-
-.packages {
-  padding: 3%;
-  width: 100%;
-  background-color: darkgray;
+  width: 80%;
+  height: 400px;
 }
 
 /* MAIN */
@@ -151,6 +96,17 @@ div.bluebox {
   font-size: xx-large;
 }
 
+.paymentt {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.img-text {
+  text-align: center;
+  font-size: x-large;
+  color: black;
+}
+
 .donebtn {
   background-color: black;
   color: white;
@@ -163,6 +119,13 @@ div.bluebox {
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
+}
+
+.main-img {
+  width: 10cm;
+  height: 10cm;
+  border: 4px solid black;
+  box-sizing: border-box;
 }
 
 .hr {
@@ -179,9 +142,8 @@ div.bluebox {
 }
 
 .inlineimage {
-  display: block;
-  margin: auto;
-  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 .images {
@@ -244,16 +206,6 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.img {
-  display: grid;
-  justify-content: flex-start;
-}
-.main-img1 {
-  width: 30%;
-}
-.main-img2 {
-  width: 29%;
-}
 /* FOOTER */
 
 .footer {
@@ -314,4 +266,15 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+}
+
+/* CATEGORY SECTION */
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.figure {
+  margin: 10px;
 }
