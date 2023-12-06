@@ -57,23 +57,76 @@ ul {
 
 .smalltext {
   font-family: "Adamina", serif;
-  font-size: small;
+  font-size: medium;
   text-align: center;
 }
 
 .girllooking {
-  width: 80%;
-  height: 400px;
+  width: 85%;
+  height: 20%;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.boxtext {
+  width: 250px;
+  float: left;
+  text-align: center;
+  font-family: "Adamina", serif;
+  margin-left: 140px;
+  background-color: lightgrey;
+  padding: 4%;
+  margin-bottom: 2rem;
+}
+
+div.bluebox {
+  width: 600px;
+  height: 500px;
+  background-color: rgb(61, 111, 132);
+  color: white;
+  float: right;
+  margin-right: 15%;
+  margin-top: 160px;
+}
+
+.citat {
+  color: black;
+  font-family: "Abhaya Libre", serif;
+  text-align: center;
+  margin-top: 54%;
+  margin-left: 40%;
+  font-size: large;
+}
+
+.glasses {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+
+.joudy {
+  height: 450px;
+  width: 330px;
+  position: absolute;
+  margin-top: 28%;
+  margin-left: 25px;
+}
+
+.packages {
+  padding: 3%;
+  width: 100%;
+  background-color: darkgray;
 }
 
 /* MAIN */
 
 .img {
-max-width: 20%;
-height: auto;
-display: block;
-margin: 0 auto;
-  
+  max-width: 20%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 #input {
