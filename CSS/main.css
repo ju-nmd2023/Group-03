@@ -128,14 +128,13 @@ body {
 }
 
 div.bluebox {
-  width: 450%;
-  height: 350px;
+  width: 500px;
+  height: 400px;
   background-color: rgb(61, 111, 132);
   color: white;
   float: right;
+  margin-top: 145px;
   margin-right: 20%;
-  margin-top: 160px;
-  margin-left: 0;
 }
 
 .citat {
