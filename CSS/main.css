@@ -331,6 +331,31 @@ figure {
   justify-content: center;
   align-items: center;
 }
+.itemdetails2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price1,
+.pricedetail1,
+.price2,
+.pricedetail2,
+.price3,
+.pricedetail3,
+.price3,
+.pricedetail3,
+.price4,
+.pricedetail4,
+.price5,
+.pricedetail5,
+.delivery {
+  margin-left: 15px;
+  padding: 0;
+  display: flex;
+}
 /* FOOTER */
 
 .footer {
