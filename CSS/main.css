@@ -633,7 +633,6 @@ figure {
 }
 
 /* FOOTER */
-
 .footer {
   margin-top: 150px;
   width: 60%;
@@ -692,4 +691,16 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+}
+
+/*detail*/
+@media screen and (max-width: 600px) {
+  .text {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-img1,
+  .main-img2 {
+    transform: translate(100%, 0%);
+  }
 }
