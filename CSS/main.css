@@ -334,6 +334,15 @@ div.cardname {
   width: 20%;
 }
 
+.main-img {
+  width: 5cm;
+  height: 5cm;
+}
+
+.img-text {
+  text-emphasis-color: black;
+}
+
 .backbutton {
   width: 60%;
   display: inline-block;
