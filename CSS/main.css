@@ -184,13 +184,6 @@ ul {
   margin-left: 25px;
 }
 
-.shoppingchart-text {
-  font-family: "Lucida Sans", "Lucida Sans Regular";
-  background-color: bisque;
-  padding: 7px;
-  border-radius: 5px;
-}
-
 /* MAIN */
 
 #Checkout {
@@ -249,7 +242,6 @@ ul {
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
-  border-radius: 0;
 }
 
 .hr {
@@ -330,7 +322,6 @@ div.cardname {
   width: 100%;
   margin-top: 30px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 0;
 }
 
 .img {
@@ -457,7 +448,7 @@ figure {
 .total-cost {
   display: flex;
   flex-direction: row;
-  gap: 25vw;
+  gap: 20vw;
   margin-left: 30vw;
 }
 
@@ -507,21 +498,6 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 10%;
-  transition: transform 0.3s;
-  animation: bubble 1s ease-out;
-  animation-iteration-count: infinite;
-}
-
-@keyframes bubble {
-  0% {
-    transform: scale (1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 .blue-text {
