@@ -1,64 +1,11 @@
 /* HEADER */
-<<<<<<< HEAD
-=======
-body {
-  margin: 0px;
-}
-
-.top {
-  display: flex;
-}
->>>>>>> parent of bff93d1 (added some new fonts, added a new header/navbar. In CSS I added boarder box and styled the whole header, I added a media query so when the page is 600px  I want to run the code below, I also changed some sizes of the pictures in the index file. In JS i added const elements to let the computer know am creating a variable witch is an event listener, I also added a class list that allows the navbar to show when I click on it.)
-
-.header {
-  display: grid;
-  background-color: burlywood;
-  width: 100%;
-  height: 100%;
-}
-
-.logo {
-  color: black;
-  font-family: "Limelight", sans-serif;
-  font-size: x-large;
-<<<<<<< HEAD
-  text-align: center;
-  margin-left: 0;
-=======
-  text-align: center;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  margin-bottom: 0;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  align-items: baseline;
-  gap: 55px;
-}
-
-.contact {
-  color: black;
-  text-decoration: none;
-}
-
-.loginbuttons {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-right: 50px;
-  margin-top: 0;
-  margin-left: auto;
-}
 
 /* HOMEPAGE */
 
 .title {
   font-family: "Adamina", serif;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 41px;
 }
 
 .smalltext {
@@ -93,7 +40,6 @@ div.bluebox {
   float: right;
   margin-right: 15%;
   margin-top: 160px;
->>>>>>> parent of bff93d1 (added some new fonts, added a new header/navbar. In CSS I added boarder box and styled the whole header, I added a media query so when the page is 600px  I want to run the code below, I also changed some sizes of the pictures in the index file. In JS i added const elements to let the computer know am creating a variable witch is an event listener, I also added a class list that allows the navbar to show when I click on it.)
 }
 
 ul {
@@ -111,22 +57,12 @@ ul {
   color: black;
 }
 
-<<<<<<< HEAD
-.loginbuttons {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-right: 50px;
-  margin-top: 0;
-  margin-left: auto;
-=======
 .glasses {
   width: 500px;
   height: 350px;
   position: absolute;
   margin-left: 25%;
   margin-top: 3%;
->>>>>>> parent of bff93d1 (added some new fonts, added a new header/navbar. In CSS I added boarder box and styled the whole header, I added a media query so when the page is 600px  I want to run the code below, I also changed some sizes of the pictures in the index file. In JS i added const elements to let the computer know am creating a variable witch is an event listener, I also added a class list that allows the navbar to show when I click on it.)
 }
 
 #Checkout {
