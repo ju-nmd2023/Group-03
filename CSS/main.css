@@ -164,6 +164,8 @@ ul {
   margin-top: 3%;
 }
 
+/* MAIN */
+
 #Checkout {
   display: flex;
   justify-content: center;
@@ -185,7 +187,6 @@ ul {
   justify-content: center;
   color: #948b8b;
 }
-/* MAIN */
 
 #input {
   display: flex;
@@ -311,9 +312,17 @@ div.cardname {
 .main-img1 {
   width: 20%;
 }
-.main-img2 {
-  width: 19%;
-  align-self: start;
+
+.backbutton {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+#backtext {
+  max-width: 50%;
+  margin: 0;
 }
 figure {
   display: flex;
@@ -334,6 +343,70 @@ figure {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 10%;
+}
+
+.shoppingchartpic {
+  width: 550px;
+  padding: o;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -60px;
+}
+
+.returnbutton {
+  display: grid;
+  grid-template-columns: 0.25fr 0.75fr;
+  max-width: 10rem;
+}
+
+.returnbutton div {
+  max-width: 50%;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: row;
+  width: 50vw;
+  gap: 2vw;
+  margin-left: 10vw;
+}
+
+.img-container {
+  width: 301px;
+  height: 403px;
+  background-color: #948b8b;
+  contain: content;
+}
+
+.img-frame {
+  padding: 10px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #948b8b;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  gap: 1vw;
+  justify-content: center;
+}
+
+#one {
+  background-color: #e0c398;
+  padding: 5px;
+}
+
+.amount-price {
+  display: flex;
+  flex-direction: row;
+  gap: 7vw;
+}
+
+.delivery-info {
+  margin-left: 30vw;
 }
 /* FOOTER */
 

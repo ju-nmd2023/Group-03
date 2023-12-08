@@ -50,7 +50,7 @@
     <br />
     <br />
     <br />
-    <div>
+    <div class="returnbutton">
       <img class="backbutton" src="back.png" alt="A return button." />
       <h1 id="backtext">Back</h1>
     </div>
@@ -66,19 +66,38 @@
     <div>
       <h2 class="details">Product details 1 items</h2>
     </div>
-    <div>
-      <img
-        class="shoppingchartpic"
-        src="shoppingchartpic.jpg"
-        alt="A picture of a wedding"
-      />
-    </div>
     <hr class="hr-style" />
-    <h2>8 hours-</h2>
-    <p>
-      The ideal package for longer weddings, capturing everything during the
-      day, up until the start of your party.
-    </p>
+    <div class="details-container">
+      <div class="img-frame">
+        <div class="img-container">
+          <img
+            class="shoppingchartpic"
+            src="img/shoppingchartpic.jpg"
+            alt="A picture of a wedding"
+          />
+        </div>
+      </div>
+      <hr class="hr-style" />
+      <div class="info">
+        <div>
+          <h2>8 hours-</h2>
+          <p>
+            The ideal package for longer weddings, capturing everything during
+            the day, up until the start of your party.
+          </p>
+          <div class="amount-price">
+            <div class="amount">
+              <h1>+</h1>
+              <h1 id="one">1</h1>
+              <h1>-</h1>
+            </div>
+            <h1>15.200kr</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
     <hr class="hr-style" />
     <br />
     <br />
@@ -87,20 +106,26 @@
     <div>
       <h1 class="details">Order summery</h1>
     </div>
+    <br />
     <hr class="hr-style" />
     <br />
     <br />
-    <h3>Dilivery</h3>
-    <input type="Standard 50kr" />
-    <br />
-    <br />
-    <br />
-    <h3>Promo code</h3>
-    <input type="Enter your code" />
-    <br />
-    <br />
-    <div>
-      <button id="apply-button">Apply</button>
+    <br>
+    <div class="delivery-info">
+      <h3>Dilivery</h3>
+      <select>
+        <option value="Standard 50kr" selected>Standard 50kr</option>
+      </select>
+      <br />
+      <br />
+      <br />
+      <h3>Promo code</h3>
+      <input placeholder="Enter your code" />
+      <br />
+      <br />
+      <div>
+        <button id="apply-button">Apply</button>
+      </div>
     </div>
     <hr class="hr-style" />
     <h1>Total cost 15.250kr</h1>
