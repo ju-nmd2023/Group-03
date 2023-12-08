@@ -1,0 +1,187 @@
+.main-img {
+    width: 5cm;
+    height: 5cm;
+  }
+  /* hreader */
+
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: burlywood;
+    color: black;
+  }
+  
+  .brand-title {
+    font-size: x-large;
+    margin: 1rem;
+    font-family: "League Gothic", sans-serif;
+  }
+  
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    list-style: none;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    font-family: "ABeeZee", sans-serif;
+    font-size: small;
+  }
+  
+  .navbar-links li:hover {
+    background-color: bisque;
+    border-radius: 5px;
+    align-items: center;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    top: 0.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .toggle-button {
+      display: flex;
+    }
+  
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+      gap: 0;
+    }
+  
+    .navbar-links li {
+      text-align: center;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .navbar-links li a {
+      padding: 1rem;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  }
+
+  /* text */
+
+  .CAT {
+    text-align: center;
+  }
+
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  figcaption {
+    color: black; 
+
+  }
+
+  /* FOOTER */
+
+  .footer {
+    margin-top: 150px;
+    width: auto;
+    padding: 50px 30%;
+    background: burlywood;
+    color: black;
+    display: flex;
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .col-2 {
+    flex-grow: 2;
+  }
+  
+  .footer div h3 {
+    font-weight: 300;
+    font-family: "League Gothic", sans-serif;
+    font-size: x-large;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+  
+  .col-1 a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: "League Gothic", sans-serif;
+    font-size: large;
+    margin-bottom: 10px;
+  }
+  
+  #forminput {
+    width: 260px;
+    height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    background-color: bisque;
+  }
+  
+  footer.footer {
+    margin-top: 80px;
+  }
+  
+  #subbtn {
+    background: transparent;
+    border: 2px solid black;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+
