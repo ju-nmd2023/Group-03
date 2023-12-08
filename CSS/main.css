@@ -184,6 +184,13 @@ ul {
   margin-left: 25px;
 }
 
+.shoppingchart-text {
+  font-family: "Lucida Sans", "Lucida Sans Regular";
+  background-color: bisque;
+  padding: 7px;
+  border-radius: 5px;
+}
+
 /* MAIN */
 
 #Checkout {
