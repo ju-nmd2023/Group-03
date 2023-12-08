@@ -267,26 +267,24 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.blueprinter {
+.img {
+  height: auto;
+  display: block;
+  margin: 0;
+  justify-content: flex-start;
+}
+.main-img1 {
+  width: 20%;
+}
+.main-img2 {
+  width: 19%;
+  align-self: start;
+}
+figure {
   display: flex;
-  justify-content: center;
-  width: 5%;
+  grid-gap: 1rem;
 }
-
-.backbutton {
-  width: 0.9%;
-}
-
-#backtext {
-  margin-right: 10px;
-}
-
-.apply-button {
-  color: #e0c398;
-  background-color: #e0c398;
-}
-
-.details {
+.itemtitleee {
   text-align: center;
   margin: 0;
   padding: 0;
@@ -294,26 +292,13 @@ div.cardname {
   justify-content: center;
   align-items: center;
 }
-
-.hr-style {
-  color: #e0c398;
-  background-color: #e0c398;
-  height: 2px;
-  border: none;
-}
-
-.greenconfirmed {
+.itemdetails1 {
+  text-align: center;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 10%;
-}
-
-.shoppingchartpic {
-  width: 50px;
-  height: 50px;
 }
 /* FOOTER */
 
