@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/85f166a876.js"
       crossorigin="anonymous"
@@ -23,28 +27,25 @@
     <script src="JS/main.js" defer></script>
     <title>Document</title>
   </head>
-  <header>
-    <div class="header">
-      <p class="logo">Bodi's Photography</p>
-      <div class="loginbuttons">
-        <p>
-          <a href="#">My Account</a>
-        </p>
-        <p>
-          <a href="#">Sign In</a>
-        </p>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#" class="contact">Home</a></li>
-          <li><a href="#" class="contact">About Us</a></li>
-          <li><a href="#" class="contact">Packages</a></li>
-          <li><a href="#" class="contact">Gallery</a></li>
-          <li><a href="#" class="contact">Contact</a></li>
-        </ul>
-      </nav>
+  <nav class="navbar">
+    <div class="brand-title">Bodi's Photography</div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="Categorypage.html">Packages</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </nav>
   <body>
     <br />
     <br />
@@ -63,8 +64,9 @@
     <br />
     <br />
     <br />
-    <div>
-      <h2 class="details">Product details 1 items</h2>
+    <div class="product-items">
+      <h1 class="details">Product details</h1>
+      <h1 class="one-item">1 items</h1>
     </div>
     <hr class="hr-style" />
     <div class="details-container">
@@ -77,7 +79,6 @@
           />
         </div>
       </div>
-      <hr class="hr-style" />
       <div class="info">
         <div>
           <h2>8 hours-</h2>
@@ -91,7 +92,7 @@
               <h1 id="one">1</h1>
               <h1>-</h1>
             </div>
-            <h1>15.200kr</h1>
+            <h2>15.200kr</h2>
           </div>
         </div>
       </div>
@@ -110,25 +111,38 @@
     <hr class="hr-style" />
     <br />
     <br />
-    <br>
+    <br />
     <div class="delivery-info">
       <h3>Dilivery</h3>
-      <select>
+      <select class="input-file">
         <option value="Standard 50kr" selected>Standard 50kr</option>
       </select>
       <br />
       <br />
       <br />
       <h3>Promo code</h3>
-      <input placeholder="Enter your code" />
+      <input class="input-file" placeholder="Enter your code" />
       <br />
       <br />
+      <br />
+      <br />
+
       <div>
         <button id="apply-button">Apply</button>
       </div>
     </div>
+    <br />
+
     <hr class="hr-style" />
-    <h1>Total cost 15.250kr</h1>
+    <br />
+    <br />
+    <div class="total-cost">
+      <h1>Total cost</h1>
+      <h1>15.250kr</h1>
+    </div>
+    <div class="checkout-button">
+      <button id="check-button">Checkout</button>
+    </div>
   </body>
   <footer class="footer">
     <div class="col-1">

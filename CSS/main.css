@@ -376,7 +376,7 @@ figure {
 .img-container {
   width: 301px;
   height: 403px;
-  background-color: #948b8b;
+  background-color: #d3d3d3;
   contain: content;
 }
 
@@ -384,7 +384,7 @@ figure {
   padding: 10px;
   height: fit-content;
   width: fit-content;
-  background-color: #948b8b;
+  background-color: #d3d3d3;
 }
 
 .amount {
@@ -407,6 +407,86 @@ figure {
 
 .delivery-info {
   margin-left: 30vw;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "League Gothic", sans-serif;
+  font-size: xx-large;
+}
+
+.one-item {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.total-cost {
+  display: flex;
+  flex-direction: row;
+  gap: 20vw;
+  margin-left: 30vw;
+}
+
+.hr-style {
+  border-color: #e0c398;
+  background-color: #e0c398;
+  height: 3px;
+  border-width: 0;
+  width: 80%;
+}
+
+button {
+  padding: 20px;
+  background-color: #e0c398;
+  border-radius: 30px;
+  width: 150px;
+  border: none;
+}
+
+.checkout-button {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+#check-button {
+  width: 250px;
+  color: white;
+}
+.input-file {
+  width: 300px;
+}
+
+#apply-button {
+  color: white;
+}
+
+.product-items {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 30px;
+}
+
+.green-confirmed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.blue-text {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.blueprinter {
+  width: 50px;
 }
 /* FOOTER */
 
