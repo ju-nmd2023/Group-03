@@ -171,13 +171,6 @@ div.bluebox {
 
 /* MAIN */
 
-.img {
-  max-width: 20%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
 #input {
   display: flex;
   flex-direction: column;
@@ -294,14 +287,37 @@ div.cardname {
 }
 
 .img {
-  display: grid;
+  height: auto;
+  display: block;
+  margin: 0;
   justify-content: flex-start;
 }
 .main-img1 {
-  width: 30%;
+  width: 20%;
 }
 .main-img2 {
-  width: 29%;
+  width: 19%;
+  align-self: start;
+}
+figure {
+  display: flex;
+  grid-gap: 1rem;
+}
+.itemtitleee {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.itemdetails1 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* FOOTER */
