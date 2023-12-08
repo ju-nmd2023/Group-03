@@ -39,7 +39,6 @@ ul {
   margin-left: auto;
 }
 
-<<<<<<< Updated upstream
 #Checkout {
   display: flex;
   justify-content: center;
@@ -61,12 +60,6 @@ ul {
   justify-content: center;
   color: #948b8b;
 }
-=======
-#checkout {
-  margin-right: 50%;
-}
-
->>>>>>> Stashed changes
 /* MAIN */
 
 #input {
@@ -195,6 +188,36 @@ div.cardname {
   justify-content: center;
   width: 5%;
 }
+
+.backbutton {
+  width: 0.9%;
+}
+
+#backtext {
+  margin-right: 10px;
+}
+
+.apply-button {
+  color: #e0c398;
+  background-color: #e0c398;
+}
+
+.details {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* styles.css */
+.hr-style {
+  color: #e0c398;
+  background-color: #e0c398;
+  height: 2px;
+  border: none;
+}
+
 /* FOOTER */
 
 .footer {
