@@ -457,7 +457,7 @@ figure {
 .total-cost {
   display: flex;
   flex-direction: row;
-  gap: 20vw;
+  gap: 25vw;
   margin-left: 30vw;
 }
 
