@@ -242,6 +242,7 @@ ul {
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
+  border-radius: 0;
 }
 
 .hr {
@@ -322,6 +323,7 @@ div.cardname {
   width: 100%;
   margin-top: 30px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0;
 }
 
 .img {
