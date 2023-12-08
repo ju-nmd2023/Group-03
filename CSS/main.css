@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   background-color: burlywood;
   color: black;
 }
@@ -81,11 +82,13 @@ body {
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
+    gap: 0;
   }
 
   .navbar-links li {
     text-align: center;
     width: 100%;
+    margin: 0;
   }
 
   .navbar-links li a {
@@ -238,16 +241,17 @@ ul {
 }
 
 .inlineimage {
-  max-width: 400px;
-  margin-right: 8px;
-  margin-left: 38rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .images {
   display: inline-block;
   max-width: 98%;
   height: auto;
-  width: 22%;
+  width: 10%;
   margin: 1%;
   left: 20px;
 }
@@ -487,6 +491,31 @@ button {
 
 .blueprinter {
   width: 50px;
+}
+.itemdetails2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price1,
+.pricedetail1,
+.price2,
+.pricedetail2,
+.price3,
+.pricedetail3,
+.price3,
+.pricedetail3,
+.price4,
+.pricedetail4,
+.price5,
+.pricedetail5,
+.delivery {
+  margin-left: 15px;
+  padding: 0;
+  display: flex;
 }
 /* FOOTER */
 
