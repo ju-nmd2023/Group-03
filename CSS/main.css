@@ -177,12 +177,6 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.greenconfirmed {
-  display: flex;
-  justify-content: center;
-  width: 10%;
-}
-
 .blueprinter {
   display: flex;
   justify-content: center;
@@ -210,7 +204,7 @@ div.cardname {
   justify-content: center;
   align-items: center;
 }
-/* styles.css */
+
 .hr-style {
   color: #e0c398;
   background-color: #e0c398;
@@ -218,6 +212,14 @@ div.cardname {
   border: none;
 }
 
+.greenconfirmed {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+}
 /* FOOTER */
 
 .footer {
