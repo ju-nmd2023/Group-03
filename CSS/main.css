@@ -42,6 +42,7 @@ body {
 .navbar-links li:hover {
   background-color: bisque;
   border-radius: 5px;
+  align-items: center;
 }
 
 .toggle-button {
@@ -84,10 +85,13 @@ body {
 
   .navbar-links li {
     text-align: center;
+    width: 100%;
   }
 
   .navbar-links li a {
     padding: 1rem;
+    width: 100%;
+    text-align: center;
   }
 
   .navbar-links.active {
