@@ -1,174 +1,65 @@
 /* HEADER */
 
-body {
-  box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.header {
+  display: grid;
   background-color: burlywood;
-  color: black;
-}
-
-.brand-title {
-  font-size: x-large;
-  margin: 1rem;
-  font-family: "League Gothic", sans-serif;
-}
-
-.navbar-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navbar-links li {
-  list-style: none;
-}
-
-.navbar-links li a {
-  text-decoration: none;
-  color: black;
-  padding: 1rem;
-  display: block;
-  font-family: "ABeeZee", sans-serif;
-  font-size: small;
-}
-
-.navbar-links li:hover {
-  background-color: bisque;
-  border-radius: 5px;
-}
-
-.toggle-button {
-  position: absolute;
-  top: 0.7rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-}
-
-.toggle-button .bar {
-  height: 3px;
   width: 100%;
-  background-color: black;
-  border-radius: 10px;
+  height: 100%;
 }
 
-@media (max-width: 600px) {
-  .toggle-button {
-    display: flex;
-  }
-
-  .navbar-links {
-    display: none;
-    width: 100%;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links li {
-    text-align: center;
-  }
-
-  .navbar-links a {
-    padding: 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-  }
-}
-
-/* INDEX.HTML */
-
-.title {
-  font-family: "Adamina", serif;
+.logo {
+  color: black;
+  font-family: "Limelight", sans-serif;
+  font-size: x-large;
   text-align: center;
-  margin-top: 40px;
-}
-
-.smalltext {
-  font-family: "Adamina", serif;
-  font-size: small;
-  text-align: center;
-}
-
-.girllooking {
-  width: 85%;
-  height: 20%;
-  align-items: center;
-  margin-left: 100px;
-}
-
-.boxtext {
-  width: 250px;
-  float: left;
-  text-align: center;
-  font-family: "Adamina", serif;
-  margin-left: 140px;
-  background-color: lightgrey;
-  padding: 4%;
-  margin-bottom: 2rem;
-}
-
-div.bluebox {
-  width: 450%;
-  height: 350px;
-  background-color: rgb(61, 111, 132);
-  color: white;
-  float: right;
-  margin-right: 20%;
-  margin-top: 160px;
   margin-left: 0;
 }
 
-.citat {
+ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 55px;
+}
+
+.contact {
   color: black;
-  font-family: "Abhaya Libre", serif;
-  text-align: center;
-  margin-top: 54%;
-  margin-left: 40%;
-  font-size: large;
 }
 
-.glasses {
-  width: 450px;
-  height: 300px;
-  position: absolute;
-  margin-left: 20%;
-  margin-top: 3%;
+.loginbuttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-left: auto;
 }
 
-.joudy {
-  height: 450px;
-  width: 330px;
-  position: absolute;
-  margin-top: 28%;
-  margin-left: 25px;
+#Checkout {
+  display: flex;
+  justify-content: center;
+}
+#thankyou {
+  display: flex;
+  justify-content: center;
+  color: #439a60;
 }
 
-.packages {
-  padding: 3%;
-  width: 100%;
-  background-color: darkgray;
+#receipt {
+  display: flex;
+  justify-content: center;
+  color: #22467d;
 }
 
+#visa {
+  display: flex;
+  justify-content: center;
+  color: #948b8b;
+}
 /* MAIN */
 
 #input {
@@ -221,9 +112,9 @@ div.bluebox {
 }
 
 .inlineimage {
-  display: block;
-  margin: auto;
-  width: 50%;
+  max-width: 400px;
+  margin-right: 8px;
+  margin-left: 38rem;
 }
 
 .images {
@@ -319,7 +210,6 @@ figure {
   justify-content: center;
   align-items: center;
 }
-
 /* FOOTER */
 
 .footer {
