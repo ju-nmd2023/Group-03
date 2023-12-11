@@ -565,7 +565,17 @@ figure {
   align-items: center;
 }
 
-.price1,
+.check-button {
+  text-decoration: none;
+  color: black;
+}
+.price1 {
+  margin-left: 15px;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
 .pricedetail1,
 .price2,
 .pricedetail2,
