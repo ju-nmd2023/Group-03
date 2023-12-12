@@ -242,7 +242,6 @@ ul {
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
-  border-radius: 0;
 }
 
 .hr {
@@ -316,7 +315,7 @@ div.cardname {
 #bigbtn {
   background-color: black;
   color: white;
-  padding: 26px 32px;
+  padding: 20px 26px;
   text-align: center;
   display: inline-block;
   font-size: 16px;
@@ -324,6 +323,19 @@ div.cardname {
   margin-top: 30px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0;
+  animation: resize 2s infinite;
+}
+
+@keyframes resize {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1, 2);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .img {
@@ -334,6 +346,15 @@ div.cardname {
 }
 .main-img1 {
   width: 20%;
+}
+
+.main-img {
+  width: 5cm;
+  height: 5cm;
+}
+
+.img-text {
+  text-emphasis-color: black;
 }
 
 .backbutton {
@@ -450,7 +471,7 @@ figure {
 .total-cost {
   display: flex;
   flex-direction: row;
-  gap: 25vw;
+  gap: 20vw;
   margin-left: 30vw;
 }
 
@@ -598,7 +619,6 @@ figure {
 }
 
 /* FOOTER */
-
 .footer {
   margin-top: 150px;
   width: 60%;
@@ -657,4 +677,20 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+<<<<<<< HEAD
 }
+=======
+}
+
+/*detail*/
+@media screen and (max-width: 600px) {
+  .text {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-img1,
+  .main-img2 {
+    transform: translate(100%, 0%);
+  }
+}
+>>>>>>> a8b5c56de6cdeac8e03e4ae800c2717de54084ce
