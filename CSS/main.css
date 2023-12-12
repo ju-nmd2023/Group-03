@@ -27,10 +27,6 @@ body {
   display: flex;
 }
 
-.navbar-links li {
-  list-style: none;
-}
-
 .navbar-links li a {
   text-decoration: none;
   color: black;
@@ -138,7 +134,6 @@ div.bluebox {
   width: 600px;
   height: 500px;
   background-color: rgb(61, 111, 132);
-  color: white;
   float: right;
   margin-right: 15%;
   margin-top: 160px;
@@ -516,13 +511,6 @@ button {
   gap: 30px;
 }
 
-.green-confirmed {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 10%;
-}
-
 .blue-text {
   display: flex;
   justify-content: center;
@@ -577,7 +565,17 @@ figure {
   align-items: center;
 }
 
-.price1,
+.check-button {
+  text-decoration: none;
+  color: black;
+}
+.price1 {
+  margin-left: 15px;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
 .pricedetail1,
 .price2,
 .pricedetail2,
@@ -616,6 +614,30 @@ figure {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
+}
+
+.green-confirmed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  transition: transform 0.3s;
+  animation: bubble 1s ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* FOOTER */
