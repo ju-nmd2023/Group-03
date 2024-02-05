@@ -699,20 +699,4 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
-<<<<<<< HEAD
 }
-=======
-}
-
-/*detail*/
-@media screen and (max-width: 600px) {
-  .text {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .main-img1,
-  .main-img2 {
-    transform: translate(100%, 0%);
-  }
-}
->>>>>>> a8b5c56de6cdeac8e03e4ae800c2717de54084ce
