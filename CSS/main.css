@@ -177,7 +177,7 @@ ul {
   display: flex;
   height: 450px;
   width: 330px;
-  position: absolute;*
+  position: absolute;
   margin-top: 20%;
   margin-left: 25px;
 }
@@ -322,6 +322,11 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0;
   animation: resize 2s infinite;
+}
+
+.btnText {
+  color: white;
+  text-decoration: none;
 }
 
 @keyframes resize {
@@ -654,22 +659,21 @@ figure {
   }
 }
 @media (max-width: 900px) {
-  .text{
+  .text {
     display: flex;
     flex-direction: column;
   }
-  .main-img1{
-      margin-left: 50%;
-  }
-  .main-img2{
+  .main-img1 {
     margin-left: 50%;
   }
-  .footer{
+  .main-img2 {
+    margin-left: 50%;
+  }
+  .footer {
     display: flex;
     flex-direction: column;
   }
 }
-
 
 /* FOOTER */
 .footer {
