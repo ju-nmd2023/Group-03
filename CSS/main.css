@@ -60,7 +60,7 @@ body {
   border-radius: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .toggle-button {
     display: flex;
   }
@@ -71,6 +71,7 @@ body {
   }
 
   .navbar {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -155,10 +156,11 @@ ul {
 }
 
 .glasses {
+  display: flex;
   width: 500px;
   height: 350px;
-  position: absolute;
-  margin-left: 25%;
+  /*position: absolute;*/
+  margin-left: 3%;
   margin-top: 3%;
 }
 
@@ -172,9 +174,10 @@ ul {
 }
 
 .joudy {
+  display: flex;
   height: 450px;
   width: 330px;
-  position: absolute;
+  position: absolute;*
   margin-top: 20%;
   margin-left: 25px;
 }
@@ -639,6 +642,34 @@ figure {
     transform: scale(1);
   }
 }
+
+@media (max-width: 900px) {
+  .glasses {
+    display: flex;
+    flex-direction: column;
+  }
+  .joudy {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 900px) {
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-img1{
+      margin-left: 50%;
+  }
+  .main-img2{
+    margin-left: 50%;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 
 /* FOOTER */
 .footer {
