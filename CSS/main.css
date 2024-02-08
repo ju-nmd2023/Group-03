@@ -228,12 +228,12 @@ ul {
 .donebtn {
   background-color: black;
   color: white;
-  padding: 15px 40px;
+  padding: 15px 30px;
   text-align: center;
   display: flex;
   justify-content: center;
   font-size: 10px;
-  width: 20%;
+  width: 10%;
   margin-right: 0;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -319,11 +319,6 @@ div.cardname {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0;
   animation: resize 2s infinite;
-}
-
-.btnText {
-  color: white;
-  text-decoration: none;
 }
 
 @keyframes resize {
@@ -704,4 +699,71 @@ footer.footer {
   padding: 10px 30px;
   font-size: 12px;
   cursor: pointer;
+}
+
+/*detail*/
+@media screen and (max-width: 600px) {
+  .text {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-img1,
+  .main-img2 {
+    transform: translate(100%, 0%);
+  }
+}
+
+/*responsive*/
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+  }
+
+  .navbar-links ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .navbar-links ul li {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar.active .navbar-links {
+    display: block;
+  }
+
+  .navbar-links ul {
+    display: block;
+  }
+
+  .navbar-links ul li {
+    margin-bottom: 10px;
+  }
+
+  .toggle-button {
+    display: block;
+  }
 }
